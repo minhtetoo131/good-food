@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_explore"
+        android:enabled="true"
+        android:icon="@drawable/ic_explore_24dp"
+        android:title="@string/text_explore"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_all_guides"
+        android:enabled="true"
+        android:icon="@drawable/ic_all_guides_24dp"
+        android:title="@string/text_all_guides"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_add"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_box_24dp"
+        android:title="@string/text_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_activity"
+        android:enabled="true"
+        android:icon="@drawable/ic_local_activity_24dp"
+        android:title="@string/text_activity"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_people_24dp"
+        android:title="@string/text_profile"
+        app:showAsAction="ifRoom" />
+</menu>
