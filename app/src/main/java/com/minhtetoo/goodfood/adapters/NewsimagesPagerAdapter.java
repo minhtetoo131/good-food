@@ -49,6 +49,8 @@ public class NewsimagesPagerAdapter extends PagerAdapter {
         return itemView;
     }
 
+
+
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
         container.removeView((View)object);

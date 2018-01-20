@@ -34,5 +34,9 @@
 
 
 
+    <dimen name="appBarSize">72dp</dimen>
+
+
+
 
 </resources>
